@@ -16,7 +16,23 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(useMaterial3: true),
       //home: const SimpleEasyRefresh(),
       //home: const ComplexEasyRefreshExample(),
-      home: Scaffold(),
+      home: Scaffold(
+        body: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            children: <Widget>[
+              Container(
+                height: 400,
+                width: 400,
+                decoration: BoxDecoration(
+                  border: Border.all(),
+                  color: Colors.blue,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
