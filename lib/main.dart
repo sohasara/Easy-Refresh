@@ -1,3 +1,4 @@
+import 'package:easy_refresh_flutter/complex_example.dart';
 import 'package:easy_refresh_flutter/simple_example.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(useMaterial3: true),
-      home: const SimpleEasyRefresh(),
+      //home: const SimpleEasyRefresh(),
+      home: const ComplexEasyRefreshExample(),
     );
   }
 }
