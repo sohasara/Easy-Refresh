@@ -19,3 +19,9 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+// Column(
+//   children: <Widget>[
+//     Icon(Icons.star, size: 50),
+//     const Text('Star'),
+//   ],
+// )
