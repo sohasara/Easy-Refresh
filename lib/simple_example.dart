@@ -16,6 +16,7 @@ class _SimpleEasyRefreshState extends State<SimpleEasyRefresh> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text('EasyRefresh Example'),
       ),
       body: EasyRefresh(
