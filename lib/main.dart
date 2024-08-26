@@ -20,8 +20,11 @@ class MyApp extends StatelessWidget {
   }
 }
 // Column(
+//   mainAxisAlignment: MainAxisAlignment.center,
+//   crossAxisAlignment: CrossAxisAlignment.stretch,
 //   children: <Widget>[
 //     Icon(Icons.star, size: 50),
 //     const Text('Star'),
 //   ],
 // )
+
