@@ -36,7 +36,6 @@ class _SimpleEasyRefreshState extends State<SimpleEasyRefresh> {
       ),
       body: EasyRefresh(
         onRefresh: () async {
-          // Simulate network request
           await Future.delayed(const Duration(seconds: 2));
           setState(() {
             _items = List.generate(20, (index) => index);
@@ -44,7 +43,6 @@ class _SimpleEasyRefreshState extends State<SimpleEasyRefresh> {
           });
         },
         onLoad: () async {
-          // Simulate network request
           await Future.delayed(const Duration(seconds: 2));
           setState(() {
             _items.addAll(List.generate(10, (index) => _nextItem++));
