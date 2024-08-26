@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(useMaterial3: true),
       //home: const SimpleEasyRefresh(),
-      home: const ComplexEasyRefreshExample(),
+      //home: const ComplexEasyRefreshExample(),
+      home: Scaffold(),
     );
   }
 }
