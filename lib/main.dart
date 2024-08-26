@@ -1,5 +1,5 @@
 import 'package:easy_refresh_flutter/complex_example.dart';
-import 'package:easy_refresh_flutter/simple_example.dart';
+//import 'package:easy_refresh_flutter/simple_example.dart';
 import 'package:flutter/material.dart';
 
 void main() {
